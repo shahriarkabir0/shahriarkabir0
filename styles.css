@@ -1,0 +1,39 @@
+.contents{
+    border-collapse: collapse;
+    margin: 25px ;
+    min-width: 1200px;
+    min-height: 500px;
+    font-size: 1em;
+    }
+
+    .contents th {
+        background-color: rgb(17, 39, 94);
+        color:white;
+      
+    }
+    .contents td{
+        height:22px
+        border-bottom:1px solid transparent;
+        transition: border-bottom 0.5s;
+    }
+
+    .contents td a{
+        color:#8a8a8a;
+    text-decoration: none;
+    transition: color 0.5s;
+    }
+    .contents td :hover{
+        border-bottom:1px solid black;
+    
+     }
+     .contents td a:hover{
+         color: black;
+     }
+.contents td{
+
+    text-align: center;
+}
+
+.contents div{
+    background-color: aqua;
+}
