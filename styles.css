@@ -2,29 +2,25 @@
     border-collapse: collapse;
     margin: 25px ;
     min-width: 1200px;
-    min-height: 500px;
+    min-height: 300px;
     font-size: 1em;
     }
 
-    .contents th {
-        background-color: rgb(17, 39, 94);
+    .contents thead tr {
+        background-color: rgb(22, 54, 135);
         color:white;
       
     }
-    .contents td{
-        height:22px
-        border-bottom:1px solid transparent;
-        transition: border-bottom 0.5s;
-    }
 
     .contents td a{
-        color:#8a8a8a;
+        color:#000000;
     text-decoration: none;
     transition: color 0.5s;
     }
     .contents td :hover{
         border-bottom:1px solid black;
-    
+        background-color: rgb(75, 189, 197);
+        font-size: large;
      }
      .contents td a:hover{
          color: black;
@@ -34,6 +30,19 @@
     text-align: center;
 }
 
-.contents div{
-    background-color: aqua;
+.first-row {
+    background-color: cadetblue;
+    color: crimson;
+}
+
+.contents tbody tr {
+    border-bottom: 1px solid rgb(48, 45, 45);
+    
+}
+
+.contents tbody tr:nth-of-type(even){
+    background-color:#f3f3f3;
+}
+.art{
+    color: #8a8a8a;
 }
